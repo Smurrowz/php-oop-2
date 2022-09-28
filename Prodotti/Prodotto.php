@@ -16,7 +16,7 @@ class Prodotto
     $this->peso = $peso;
   }
   public function setPrice($price){
-    $this->prezzo = $price;
+    throw new Exception('VOLEVA CAMBIARE IL PREZZO LO STRONZO');
   }
   public function getPrice(){
    return $this->prezzo;
